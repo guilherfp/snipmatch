@@ -1,0 +1,18 @@
+{
+  "uuid": "d7a550b9-00f5-4fe8-adde-b50c1426d274",
+  "name": "web xml 3.1",
+  "description": "Web XML Descriptor 3.1",
+  "extraSearchTerms": [
+    "web xml"
+  ],
+  "tags": [
+    "web",
+    "xml"
+  ],
+  "code": "\u003cweb-app xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\r\n  xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd\"\r\n  version\u003d\"3.1\"\u003e\r\n\u003c/web-app\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    ".xml"
+  ],
+  "dependencies": []
+}
