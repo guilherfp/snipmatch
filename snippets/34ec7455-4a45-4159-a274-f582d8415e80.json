@@ -6,7 +6,7 @@
   "tags": [
     "teste"
   ],
-  "code": "System.out.println(\"TESTE\");",
+  "code": "System.out.println(\"teste\");",
   "location": "JAVA_STATEMENTS",
   "filenameRestrictions": [],
   "dependencies": [
