@@ -1,0 +1,13 @@
+{
+  "uuid": "34ec7455-4a45-4159-a274-f582d8415e80",
+  "name": "teste",
+  "description": "teste",
+  "extraSearchTerms": [],
+  "tags": [
+    "teste"
+  ],
+  "code": "System.out.println(\"TESTE\");",
+  "location": "JAVA_STATEMENTS",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
