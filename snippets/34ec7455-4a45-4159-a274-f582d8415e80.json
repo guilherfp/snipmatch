@@ -9,5 +9,11 @@
   "code": "System.out.println(\"TESTE\");",
   "location": "JAVA_STATEMENTS",
   "filenameRestrictions": [],
-  "dependencies": []
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }
