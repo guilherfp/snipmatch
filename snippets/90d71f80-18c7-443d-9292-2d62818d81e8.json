@@ -1,0 +1,24 @@
+{
+  "uuid": "90d71f80-18c7-443d-9292-2d62818d81e8",
+  "name": "SLF4J Logger",
+  "description": "create a SLF4J logger",
+  "extraSearchTerms": [],
+  "tags": [
+    "log"
+  ],
+  "code": "private static final ${loggerType:newType(org.slf4j.Logger)} ${logger:link(LOG,LOGGER)} \u003d ${loggerFactory:newType(org.slf4j.LoggerFactory)}.getLogger(${enclosing_type}.class);",
+  "location": "JAVA_TYPE_MEMBERS",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "0.0.0"
+    }
+  ]
+}
