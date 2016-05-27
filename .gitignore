@@ -1,1 +1,5 @@
-index
+# Ignore every file except for this one and the actual snippets
+*
+!.gitignore
+!snippets/
+!snippets/*
