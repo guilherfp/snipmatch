@@ -1,0 +1,22 @@
+{
+  "uuid": "6d074940-f4af-4814-b1c8-0728980eb781",
+  "name": "Default Constructor",
+  "description": "Criação construtor padrão",
+  "extraSearchTerms": [
+    "default constructor"
+  ],
+  "tags": [
+    "default",
+    "constructor"
+  ],
+  "code": "${enclosing_type}() {\r\n\tsuper();\r\n}",
+  "location": "FILE",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
