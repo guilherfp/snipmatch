@@ -1,0 +1,22 @@
+{
+  "uuid": "cb665745-f0b4-495d-a5f1-5a73133dc42f",
+  "name": "setup",
+  "description": "setup Test @Before",
+  "extraSearchTerms": [
+    "setup"
+  ],
+  "tags": [
+    "setup",
+    "test"
+  ],
+  "code": "@${testType:newType(org.junit.Before)}\r\npublic void setUp() throws Exception {\r\n\t${staticImport:importStatic(\u0027org.junit.Assert.*\u0027)}${cursor}\r\n}",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
