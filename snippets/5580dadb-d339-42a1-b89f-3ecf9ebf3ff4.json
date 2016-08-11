@@ -1,0 +1,22 @@
+{
+  "uuid": "5580dadb-d339-42a1-b89f-3ecf9ebf3ff4",
+  "name": "Private Constructor",
+  "description": "Criação construtor privado",
+  "extraSearchTerms": [
+    "private constructor"
+  ],
+  "tags": [
+    "private",
+    "constructor"
+  ],
+  "code": "private ${enclosing_type}() {\r\n\tsuper();\r\n}",
+  "location": "FILE",
+  "filenameRestrictions": [],
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
+}
