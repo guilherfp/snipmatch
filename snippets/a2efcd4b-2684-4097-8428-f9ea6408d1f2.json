@@ -1,0 +1,19 @@
+{
+  "uuid": "a2efcd4b-2684-4097-8428-f9ea6408d1f2",
+  "name": "Java Maven Version",
+  "description": "Define versão do Java em projetos Maven",
+  "extraSearchTerms": [
+    "java"
+  ],
+  "tags": [
+    "java",
+    "maven",
+    "version"
+  ],
+  "code": "\u003cjava.version\u003e1.8\u003c/java.version\u003e\r\n\u003cmaven.compiler.source\u003e$${java.version}\u003c/maven.compiler.source\u003e\r\n\u003cmaven.compiler.target\u003e$${java.version}\u003c/maven.compiler.target\u003e",
+  "location": "GENERIC_FILE",
+  "filenameRestrictions": [
+    "pom.xml"
+  ],
+  "dependencies": []
+}
