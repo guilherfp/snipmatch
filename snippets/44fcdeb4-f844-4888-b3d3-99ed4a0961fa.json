@@ -1,0 +1,14 @@
+{
+  "uuid": "44fcdeb4-f844-4888-b3d3-99ed4a0961fa",
+  "name": "generate field builder",
+  "description": "Generate field pattern Builder",
+  "extraSearchTerms": [],
+  "tags": [
+    "build",
+    "field"
+  ],
+  "code": "public ${enclosing_type} ${name}(${var} ${name}) {\r\n\tthis.${name} \u003d ${name};\r\n\treturn this;\r\n}\r\n",
+  "location": "JAVA",
+  "filenameRestrictions": [],
+  "dependencies": []
+}
