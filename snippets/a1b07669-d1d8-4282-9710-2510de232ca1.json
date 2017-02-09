@@ -9,7 +9,7 @@
     "logback",
     "log"
   ],
-  "code": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cconfiguration\u003e\n\n  \u003cappender name\u003d\"STDOUT\" class\u003d\"ch.qos.logback.core.ConsoleAppender\"\u003e\n    \u003clayout class\u003d\"ch.qos.logback.classic.PatternLayout\"\u003e\n      \u003cPattern\u003e\n        %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n\n      \u003c/Pattern\u003e\n    \u003c/layout\u003e\n  \u003c/appender\u003e\n\n  \u003clogger name\u003d\"com.mkyong.web\" level\u003d\"debug\" additivity\u003d\"false\"\u003e\n    \u003cappender-ref ref\u003d\"STDOUT\" /\u003e\n  \u003c/logger\u003e\n\n  \u003croot level\u003d\"error\"\u003e\n    \u003cappender-ref ref\u003d\"STDOUT\" /\u003e\n  \u003c/root\u003e\n\n\u003c/configuration\u003e",
+  "code": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cconfiguration\u003e\n\n  \u003cappender name\u003d\"STDOUT\" class\u003d\"ch.qos.logback.core.ConsoleAppender\"\u003e\n    \u003clayout class\u003d\"ch.qos.logback.classic.PatternLayout\"\u003e\n      \u003cPattern\u003e\n        %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n\n      \u003c/Pattern\u003e\n    \u003c/layout\u003e\n  \u003c/appender\u003e\n\n  \u003clogger name\u003d\"br.com.devsource\" level\u003d\"debug\" additivity\u003d\"false\"\u003e\n    \u003cappender-ref ref\u003d\"STDOUT\" /\u003e\n  \u003c/logger\u003e\n\n  \u003croot level\u003d\"error\"\u003e\n    \u003cappender-ref ref\u003d\"STDOUT\" /\u003e\n  \u003c/root\u003e\n\n\u003c/configuration\u003e",
   "location": "GENERIC_FILE",
   "filenameRestrictions": [
     "logback.xml"
