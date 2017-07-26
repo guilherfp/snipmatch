@@ -7,7 +7,7 @@
     "after",
     "test"
   ],
-  "code": "@After\r\npublic void tearDown() {\r\n\t${cursor}\r\n}\r\n${after:import(org.junit.After)}",
+  "code": "@After\r\npublic void tearDown() throws Exception {\r\n\t${cursor}\r\n}\r\n${after:import(org.junit.After)}",
   "location": "JAVA_TYPE_MEMBERS",
   "filenameRestrictions": [],
   "dependencies": [
